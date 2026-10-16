@@ -46,8 +46,8 @@ function Gallery() {
         <div className="grid mt-10 grid-cols-1 md:grid-cols-5 gap-10">
             {
               filteredItems.map((item)=>(
-               <div className="">
-                <img src={item.img} className='w-full h-50 object-cover rounded-xl' alt="" />
+               <div data-aos='fade-up'  className="">
+                <img src={item.img} className='w-full h-60 object-cover rounded-xl' alt={item.category} />
                </div>
               ))
             }
