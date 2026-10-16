@@ -7,10 +7,10 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'; 
 
 function Home() {
+  const navigate=useNavigate()
   const [filter, setFilter]=useState('Main Course')
   const category=['Starters','Main Course','Desserts','Beverages'];
   const [showreviews, setAShowReviews]=useState(reviews[0])
-const navigate=useNavigate()
   const showReview=(id)=>{
      let filterreview=reviews.find((r)=>r.id===id)
      console.log(filterreview);
@@ -109,7 +109,7 @@ const navigate=useNavigate()
 
     <section className='my-10 bg-green-950'>
        <div className="w-[90%] mx-auto grid gap-1 grid-cols-1 md:grid-cols-3">
-        <div className="text-center">
+        <div className="text-center md:text-start">
             <h1 className='text-gray-300'>SELECT YOUR  MEAL</h1>
             <h2 className='text-yellow-300 my-2 font-gothic text-3xl'>Popular Categories</h2>
            <div className=" ">
