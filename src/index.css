@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --font-gothic: "UnifrakturMaguntia", serif;
+  --font-nav:'Cormorant Garamond',serif;
+}
+
+
