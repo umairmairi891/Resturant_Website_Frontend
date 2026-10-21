@@ -143,6 +143,7 @@ export const reviews=[
 
 export const mainMenu=[
     {
+        id:1,
         img:'menuFirst.jpg',
         title:'Grilled Salmon',
         category:'Main Course ',
@@ -151,6 +152,7 @@ export const mainMenu=[
         price:"1100"
     },
     {
+        id:2,
         img:'menusecond.jpg',
         title:'Truffle Pasta',
         category:'Main Course ',
@@ -159,6 +161,7 @@ export const mainMenu=[
         price:"900"
     },
     {
+        id:3,
         img:'menuFirst.jpg',
         title:'Classic Burger',
         category:'Main Course ',
@@ -166,6 +169,7 @@ export const mainMenu=[
         price:"600"
     },
     {
+        id:4,
         img:'menusecond.jpg',
         title:'Margherita Pizza',
         category:'Main Course ',
@@ -173,6 +177,7 @@ export const mainMenu=[
         price:"1500"
     },
     {
+        id:5,
         img:'menuFirst.jpg',
         title:'BBQ Ribs',
         category:'Main Course ',
@@ -180,6 +185,7 @@ export const mainMenu=[
         price:"720"
     },
     {
+        id:6,
         img:'menusecond.jpg',
         title:'Chicken Alfredo',
         category:'Main Course ',
@@ -187,6 +193,7 @@ export const mainMenu=[
         price:"700"
     },
     {
+        id:7,
         img:'menuFirst.jpg',
         title:'Beef Steak',
         category:'Main Course ',
@@ -194,6 +201,7 @@ export const mainMenu=[
         price:"650"
     },
     {
+        id:8,
         img:'menusecond.jpg',
         title:'Vegetable Stir Fry',
         category:'Main Course',
@@ -201,6 +209,7 @@ export const mainMenu=[
         price:"400"
     },
     {
+        id:9,
         img:'menuFirst.jpg',
         title:'Shrimp Scampi',
         category:'Main Course ',
@@ -208,6 +217,7 @@ export const mainMenu=[
         price:"200"
     },
     {
+        id:10,
         img:'menusecond.jpg',
         title:'Lamb Chops',
         category:'Main Course ',
@@ -215,6 +225,7 @@ export const mainMenu=[
         price:"200"
     },
     {
+        id:11,
         img:'Brushchetta.jpg',
         title:'Bruschetta',
         category:'Starters ',
@@ -222,6 +233,7 @@ export const mainMenu=[
         price:"900"
     },
     {
+        id:12,
         img:'calamari.jpg',
         title:'Calamari',
         category:'Starters ',
@@ -229,6 +241,7 @@ export const mainMenu=[
         price:"1000"
     },
     {
+        id:13,
         img:'Brushchetta.jpg',
         title:'Spring Rolls',
         category:'Starters ',
@@ -236,6 +249,7 @@ export const mainMenu=[
         price:"750"
     },
     {
+        id:14,
         img:'calamari.jpg',
         title:'Garlic Bread',
         category:'Starters ',
@@ -243,6 +257,7 @@ export const mainMenu=[
         price:"600"
     },
     {
+        id:15,
         img:'Brushchetta.jpg',
         title:'Caesar Salad',
         category:'Starters ',
@@ -250,6 +265,7 @@ export const mainMenu=[
         price:"900"
     },
     {
+        id:16,
         img:'calamari.jpg',
         title:'Stuffed Mushrooms',
         category:'Starters ',
@@ -257,6 +273,7 @@ export const mainMenu=[
         price:"900"
     },
     {
+        id:17,
         img:'Brushchetta.jpg',
         title:'Onion Rings',
         category:'Starters ',
@@ -264,6 +281,7 @@ export const mainMenu=[
         price:"670"
     },
     {
+        id:18,
         img:'calamari.jpg',
         title:'Chicken Wings',
         category:'Starters ',
@@ -271,6 +289,7 @@ export const mainMenu=[
         price:"1000"
     },
     {
+        id:19,
         img:'chocolatelva.jpg',
         title:'Chocolate Lava Cake',
         category:'Desserts ',
@@ -278,6 +297,7 @@ export const mainMenu=[
         price:"900"
     },
     {
+        id:20,
         img:'tiramisu.jpg',
         title:'Tiramisu',
         category:'Desserts  ',
@@ -285,6 +305,7 @@ export const mainMenu=[
         price:"900"
     },
     {
+        id:21,
         img:'chocolatelva.jpg',
         title:'Cheesecake',
         category:'Desserts  ',
@@ -292,6 +313,7 @@ export const mainMenu=[
         price:"800"
     },
     {
+        id:22,
         img:'tiramisu.jpg',
         title:'Ice Cream Sundae',
         category:'Desserts  ',
@@ -299,6 +321,7 @@ export const mainMenu=[
         price:"700"
     },
     {
+        id:23,
         img:'chocolatelva.jpg',
         title:'Apple Pie',
         category:'Desserts  ',
@@ -306,6 +329,7 @@ export const mainMenu=[
         price:"980"
     },
     {
+        id:24,
         img:'tiramisu.jpg',
         title:'Panna Cotte',
         category:'Desserts   ',
@@ -313,6 +337,7 @@ export const mainMenu=[
         price:"800"
     },
     {
+        id:25,
         img:'leafcofee.jpg',
         title:'Fresh Lemonade',
         category:'Beverages ',
@@ -320,6 +345,7 @@ export const mainMenu=[
         price:"400"
     },
     {
+        id:26,
         img:'Mango.jpg',
         title:'Iced Coffee',
         category:'  Beverages ',
@@ -327,6 +353,7 @@ export const mainMenu=[
         price:"500"
     },
     {
+        id:27,
         img:'leafcofee.jpg',
         title:'Mango Smoothie',
         category:'Beverages ',
@@ -334,6 +361,7 @@ export const mainMenu=[
         price:"600"
     },
     {
+        id:28,
         img:'Mango.jpg',
         title:'Mint Mojito (Virgin)',
         category:' Beverages  ',
@@ -341,6 +369,7 @@ export const mainMenu=[
         price:"600"
     },
     {
+        id:29,
         img:'leafcofee.jpg',
         title:'Hot Chocolate',
         category:'Beverages ',
@@ -348,6 +377,7 @@ export const mainMenu=[
         price:"600"
     },
     {
+        id:30,
         img:'Mango.jpg',
         title:'Fresh Orange Juice',
         category:'Beverages',

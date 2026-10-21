@@ -1,7 +1,8 @@
 import React,{useState} from 'react'
 import { NavLink } from 'react-router-dom'
-import {Menu, User,X} from 'lucide-react'
-function Header() {
+import {Menu, User,X, ShoppingBasket} from 'lucide-react'
+
+function Header({onopen,cartcount}) {
 
     const [mobilemenu, setMobileMenu]=useState(false)
 
@@ -36,8 +37,16 @@ function Header() {
             <button  className='bg-yellow-400 text-black cursor-pointer  px-3 py-1 rounded-2xl'>Reserve Table</button>
             </NavLink>
         </div>
-        <div className="bg-yellow-400 p-1 rounded-2xl">
-            <User className='fill-black text-black' />
+        <div className="  flex items-center gap-5">
+            <User className='fill-black w-8 h-8 p-1 rounded-2xl bg-yellow-400 text-black' />
+            <div className="relative">
+            <ShoppingBasket onClick={onopen} className='w-8 h-8 fill-yellow-500 text-yellow-500 cursor-pointer'/>
+            {
+                cartcount>0 &&
+              <div className="absolute flex items-center justify-center w-5 h-5 bg-red-500 top-[-10px] rounded-4xl left-5">{cartcount}</div>
+            }
+            </div>
+
         </div>
         <div className="block md:hidden">
             {mobilemenu ? (

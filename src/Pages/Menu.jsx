@@ -1,8 +1,15 @@
-import React, { useMemo, useState } from 'react'
+import React, { useContext, useMemo, useState } from 'react'
 import { mainMenu } from '../data'
 import AOS from 'aos'
 import 'aos/dist/aos.css'; 
+import usecartContext from '../Context/CartContxt';
 function Menu() {
+
+  
+const {addtocart}=usecartContext()
+
+  
+
   AOS.init({
       duration:1000,
       once:false
@@ -52,7 +59,10 @@ function Menu() {
                   <span>{menu.category}</span>
                   <span>{menu.cal}</span>
                 </div>
-                <p className='px-4 my-3 text-yellow-300'>{menu.price}</p>
+                <div className="px-4 flex my-3 items-center justify-between">
+                <p className='px-4  text-yellow-300'>{menu.price}</p>
+                <button className='px-3 py-2 cursor-pointer  rounded-xl font-semibold border border-yellow-300 text-yellow-300 hover:bg-yellow-300 hover:text-black duration-300' onClick={()=>addtocart(menu)}>Add To Cart</button>
+                </div>
               </div>
             ))}
           </div>
