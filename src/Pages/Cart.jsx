@@ -119,7 +119,7 @@ function Cart({ cartopen, onclose, cart, total }) {
                            <h1>DELIVERY CHARGES : {deliveryCharges}</h1>
                         </div>
                         <div className="mt-10 text-center w-full bg-indigo-900 py-3 rounded text-white text-xl font-[Poppins]">
-                           <h1>Totol Paying Amout :  {total+deliveryCharges}</h1>
+                           <h1>Total Paying Amout :  {total+deliveryCharges}</h1>
                         </div>
                      </div>
                   </div>
